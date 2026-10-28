@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.slidev/
+*.log
+.DS_Store
+
+# 构建产物仓库（单独推送 Pages）
+资料分析速算/
+# 上传与临时目录
+.uploads/
+课堂背景方案/

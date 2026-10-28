@@ -1,0 +1,114 @@
+/* 统一背景 C：暖纸讲稿
+ * 用法：追加到课件 style.css 末尾（放在入场动画之后），覆盖默认深色 token。
+ * 页面：底色米白 + 32px 淡纸格 + 右上/左下暖光 + 四周轻微压角。
+ * 封面与结尾页同样使用暖纸底，保持全课统一。
+ */
+
+:root {
+  --slidev-theme-primary: #b4741c;
+  --paper: #f7f1e4;
+  --paper-2: #efe6d4;
+  --ink: #1f2a3a;
+  --ink2: #2a3850;
+  --text: #232b36;
+  --muted: #6d6455;
+  --line: rgba(74, 60, 40, 0.18);
+  --amber: #d99a35;
+  --amber-d: #a8650f;
+  --card: #fffdf7;
+  --card-line: rgba(74, 60, 40, 0.14);
+  --grid: rgba(120, 90, 50, 0.055);
+}
+
+.slidev-layout.paper,
+.slidev-page.paper,
+.slidev-layout.cover-dark,
+.slidev-page.cover-dark {
+  background-color: var(--paper) !important;
+  background-image:
+    radial-gradient(70% 55% at 92% -8%, rgba(180, 116, 28, 0.12), transparent 62%),
+    radial-gradient(50% 45% at -8% 108%, rgba(120, 90, 50, 0.1), transparent 60%),
+    repeating-linear-gradient(0deg, var(--grid) 0 1px, transparent 1px 32px),
+    repeating-linear-gradient(90deg, rgba(120, 90, 50, 0.045) 0 1px, transparent 1px 32px),
+    radial-gradient(120% 90% at 50% 50%, transparent 62%, rgba(120, 90, 50, 0.07) 100%) !important;
+  color: var(--text);
+}
+
+.cover-dark h1 { color: var(--ink); }
+.cover-dark h2 { color: var(--muted); }
+.cover-mark { color: rgba(31, 42, 58, 0.08); }
+.cover-mark sup { color: var(--amber-d); }
+.cover-meta { color: var(--muted); }
+.cover-foot { color: #8b8170; }
+
+.card,
+.step,
+.drill-card,
+.digit,
+.frac-table,
+.sq-table,
+.mini-table {
+  background: var(--card);
+}
+
+.card {
+  border-color: var(--line);
+  box-shadow: 0 2px 8px rgba(74, 60, 40, 0.05);
+}
+
+.step,
+.digit { border-color: var(--line); }
+
+.sq-table tr:nth-child(even) td { background: #f4ecd9; }
+
+.tip-card {
+  background: #f6eedf;
+  border-color: var(--line);
+}
+
+.note-box.light {
+  background: #f6eedf;
+  border-color: #e6d6b8;
+}
+
+.pill {
+  background: #f6eedf;
+  border-color: #e6d6b8;
+  color: var(--amber-d);
+}
+
+.calc-row { border-bottom-color: var(--line); }
+.toc-row { border-bottom-color: var(--line); }
+
+.takeaway {
+  background: var(--card);
+  border-color: var(--card-line);
+}
+
+.takeaway b { color: var(--amber-d); }
+.takeaway span { color: var(--muted); }
+.closing-line { color: var(--ink); }
+
+/* F2 字号：主体公式 26–30px */
+.slidev-page .formula { font-size: 1.65rem; }
+.slidev-page .formula.small { font-size: 1.18rem; }
+.slidev-page .formula.big { font-size: 1.85rem; }
+.slidev-page .note-box .big-line { font-size: 1.5rem; }
+.slidev-page .calc-line { font-size: 1rem; }
+.slidev-page .calc-line.big { font-size: 1.5rem; }
+.slidev-page .result { font-size: 1.85rem; }
+.slidev-page .result.small { font-size: 1.45rem; }
+
+/* C1 课堂钩子 */
+.hook {
+  margin: 0.3rem 0 0.55rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--muted);
+}
+.hook::before {
+  content: "先问：";
+  margin-right: 0.15rem;
+  color: var(--amber-d);
+  font-weight: 700;
+}

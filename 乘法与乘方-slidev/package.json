@@ -1,0 +1,16 @@
+{
+  "name": "civil-exam-math-slides",
+  "private": true,
+  "version": "1.0.0",
+  "description": "乘法与乘方 · 资料分析速算课（Slidev 交互版）",
+  "scripts": {
+    "dev": "slidev --open",
+    "build": "slidev build",
+    "export:pdf": "slidev export --format pdf --output 乘法与乘方.pdf"
+  },
+  "devDependencies": {
+    "@slidev/cli": "^53.0.0",
+    "@slidev/theme-default": "^0.25.0",
+    "playwright-chromium": "^1.64.1"
+  }
+}
