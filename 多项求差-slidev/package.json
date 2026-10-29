@@ -1,0 +1,16 @@
+{
+  "name": "multi-difference-slides",
+  "private": true,
+  "version": "1.0.0",
+  "description": "多项求差 · 资料分析速算课（Slidev 交互版）",
+  "scripts": {
+    "dev": "slidev --open",
+    "build": "slidev build",
+    "export:pdf": "slidev export --format pdf --output 多项求差.pdf"
+  },
+  "devDependencies": {
+    "@slidev/cli": "^53.0.0",
+    "@slidev/theme-default": "^0.25.0",
+    "playwright-chromium": "^1.64.1"
+  }
+}

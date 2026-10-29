@@ -10,6 +10,7 @@ SITE_DIR="${SITE_DIR:-/workspace/资料分析速算}"
 PROJECTS=(
   "/workspace/乘法与乘方-slidev|$SITE_DIR/multiplication"
   "/workspace/除法估算-slidev|$SITE_DIR/division"
+  "/workspace/多项求差-slidev|$SITE_DIR/difference"
 )
 
 for pair in "${PROJECTS[@]}"; do
