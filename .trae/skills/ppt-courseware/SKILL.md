@@ -204,6 +204,7 @@ skill 的 `components/` 是唯一来源；复制到课件项目的 `components/`
 | `RandomDrill.vue` | 乘法 / 乘方随机加练 | `<RandomDrill />` |
 | `RandomDivision.vue` | 除法随机加练 | `<RandomDivision />` |
 | `RandomDiff.vue` | 多项求差随机加练 | `<RandomDiff />` |
+| `RandomAdd.vue` | 多项连加随机加练 | `<RandomAdd />` |
 | `global-bottom.vue` | 页码 + 导出按钮，放项目根目录 | 无需引用，Slidev 自动挂载 |
 
 约定：练习页答案只允许用 `ClickReveal`；倒计时只允许用 `Countdown`；不要在页面内重写同类组件。
