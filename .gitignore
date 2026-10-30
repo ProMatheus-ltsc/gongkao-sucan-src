@@ -9,3 +9,7 @@ dist/
 # 上传与临时目录
 .uploads/
 课堂背景方案/
+
+# 本地密钥与截图，禁止入库
+.ssh/
+.screenshots/

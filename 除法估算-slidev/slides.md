@@ -21,7 +21,7 @@ drawings:
 ## 资料分析的另一半：从「会除」到「除得准」
 
 <div class="cover-meta">
-资料分析速算课 ｜ 19 页 ｜ 含课堂互动
+资料分析速算课 ｜ 26 页 ｜ 每讲一法，立刻练两题
 </div>
 
 <div class="cover-foot">面向大学生 / 上班族备考者　·　主讲：____________</div>
@@ -166,6 +166,32 @@ layout: default
 class: paper
 ---
 
+# 即学即练：截位直除
+
+<div class="kicker">限时 50 秒，先定分母取几位，再除</div>
+
+<div class="two-col">
+  <div class="q-block">
+    <div class="q">01　基础　5628 ÷ 1.32（选项 4000 / 4260 / 4500）</div>
+    <ClickReveal answer="差距约 6% → 分母三位 → 4263.6，选 4260" />
+  </div>
+  <div class="q-block">
+    <div class="q">02　进阶　4783 ÷ 0.86（选项 5200 / 5560 / 5900）</div>
+    <ClickReveal answer="分母截成 0.9 会得 5314，偏到 5200 一侧；取三位 → 5561.6，选 5560" />
+  </div>
+</div>
+
+<div class="footnote">第 2 题是反例：选项差看着大，但分母只取两位会把答案推过界。</div>
+
+<!--
+先让学员说「几位」，再说答案；直接报数的不算完成。
+-->
+
+---
+layout: default
+class: paper
+---
+
 # 动作二：化除为乘
 
 <div class="hook">1 ÷ 1.08，能不能不除，改成乘？</div>
@@ -207,6 +233,32 @@ layout: default
 class: paper
 ---
 
+# 即学即练：化除为乘
+
+<div class="kicker">限时 40 秒，把除法写成乘法再报答案</div>
+
+<div class="two-col">
+  <div class="q-block">
+    <div class="q">01　基础　380 ÷ 1.09</div>
+    <ClickReveal answer="1/1.09 ≈ 1 − 0.09 + 0.0081 = 0.9174 → 380 × 0.9174 ≈ 348.6" />
+  </div>
+  <div class="q-block">
+    <div class="q">02　进阶　640 ÷ 0.93</div>
+    <ClickReveal answer="1/0.93 ≈ 1 + 0.07 + 0.0049 = 1.0753 → 640 × 1.0753 ≈ 688.2" />
+  </div>
+</div>
+
+<div class="footnote">下降题（分母小于 1）用「1 + r + r²」，结果会比原数大，别把方向写反。</div>
+
+<!--
+先问「乘还是除、乘多少」，再点开；把 1.0753 写成 0.925 的，回上一页。
+-->
+
+---
+layout: default
+class: paper
+---
+
 # 动作三：百化分
 
 <div class="hook">12.5% 是几分之一？换成除法是不是更快？</div>
@@ -229,6 +281,32 @@ class: paper
 <!--
 click 1：先问「12.5% 是几分之一」，再给 356÷8 = 44.5，让学生看到除法比乘法少一步。
 click 2：补两条同类，收口「看到 7/8/9/12 想分数」；提醒 6.3% 是 1/16，不是 1/15。
+-->
+
+---
+layout: default
+class: paper
+---
+
+# 即学即练：百化分
+
+<div class="kicker">限时 30 秒，先说出「除以几」</div>
+
+<div class="two-col">
+  <div class="q-block">
+    <div class="q">01　基础　512 ÷ 8</div>
+    <ClickReveal answer="12.5% = 1/8 → 64" />
+  </div>
+  <div class="q-block">
+    <div class="q">02　进阶　693 ÷ 9</div>
+    <ClickReveal answer="11.1% = 1/9 → 77" />
+  </div>
+</div>
+
+<div class="footnote">分母是 7、8、9、12 时先想分数；反过来看到 8.3%、9.1%、14.3% 也先找 1/n。</div>
+
+<!--
+点开前逐个问「这是几分之一」；答不出的回百化分表页。
 -->
 
 ---
@@ -276,6 +354,32 @@ layout: default
 class: paper
 ---
 
+# 即学即练：分数比较
+
+<div class="kicker">限时 50 秒，写出交叉相乘的两行数</div>
+
+<div class="two-col">
+  <div class="q-block">
+    <div class="q">01　基础　47/123 与 51/134，谁大？</div>
+    <ClickReveal answer="47×134 = 6298，51×123 = 6273 → 47/123 大" />
+  </div>
+  <div class="q-block">
+    <div class="q">02　进阶　83/97 与 79/93，谁大？</div>
+    <ClickReveal answer="83×93 = 7719，79×97 = 7663 → 83/97 大（差 0.7%）" />
+  </div>
+</div>
+
+<div class="footnote">第 2 题只差 0.7%，直除会看错；分母同为正，交叉相乘最稳。</div>
+
+<!--
+两题都先「估」：第 1 题都约 0.382，第 2 题都约 0.855；估到同一位再交叉相乘。
+-->
+
+---
+layout: default
+class: paper
+---
+
 # 高频形态一：基期量
 
 <div class="hook">增长和下降，分母差在哪一步？</div>
@@ -301,6 +405,32 @@ class: paper
 click 1：先问「增长和下降分母差在哪」，再给公式；强调先写 r 的符号。
 click 2：增长 8% 的例子，用化除为乘 1.37×0.926，顺带复用量级换算。
 click 3：用下降 8% 的反例收口，这是最高频错因。
+-->
+
+---
+layout: default
+class: paper
+---
+
+# 即学即练：基期量
+
+<div class="kicker">限时 50 秒，先写 r 的符号，再写分母</div>
+
+<div class="two-col">
+  <div class="q-block">
+    <div class="q">01　基础　现期 2.46 万亿，同比增长 12%，基期约为？</div>
+    <ClickReveal answer="2.46 ÷ 1.12 ≈ 2.1964 万亿（≈ 21964 亿元）" />
+  </div>
+  <div class="q-block">
+    <div class="q">02　进阶　现期 860，同比下降 6%，基期约为？</div>
+    <ClickReveal answer="860 ÷ 0.94 ≈ 914.9" />
+  </div>
+</div>
+
+<div class="footnote">第 2 题若写成 860 ÷ 1.06 ≈ 811，就是典型的方向错，选项里常埋这个数。</div>
+
+<!--
+批改先看分母：1.12 / 0.94 写对再谈精算；写反的当场回上一页。
 -->
 
 ---
@@ -345,6 +475,32 @@ layout: default
 class: paper
 ---
 
+# 即学即练：增长量
+
+<div class="kicker">限时 50 秒，写出「先乘后除」两步</div>
+
+<div class="two-col">
+  <div class="q-block">
+    <div class="q">01　基础　现期 4800，同比增长 20%，增长量为？</div>
+    <ClickReveal answer="4800 × 0.2 ÷ 1.2 = 960 ÷ 1.2 = 800" />
+  </div>
+  <div class="q-block">
+    <div class="q">02　进阶　现期 2.46 万亿，同比增长 12%，增长量约为？</div>
+    <ClickReveal answer="2.46 × 0.12 ÷ 1.12 ≈ 0.2636 万亿 ≈ 2636 亿元" />
+  </div>
+</div>
+
+<div class="footnote">直接用 2.46 × 12% = 2952 亿是「基期 × r」，比正确答案高约 12%。</div>
+
+<!--
+点开前先问「现期乘 r 是谁的 r」，让学员自己说出「基期的」。
+-->
+
+---
+layout: default
+class: paper
+---
+
 # 高频形态三：比重与平均数
 
 <div class="hook">分母是整体，还是部分？是总量，还是个数？</div>
@@ -372,6 +528,32 @@ class: paper
 click 1：先问「分母是整体还是部分」，再给比重公式和 125÷480。
 click 2：平均数换分母为「个数」，强调单位可能藏在「万人」里。
 click 3：收口「百分点 vs %」，为复合考点留一个钩子。
+-->
+
+---
+layout: default
+class: paper
+---
+
+# 即学即练：比重与平均数
+
+<div class="kicker">限时 40 秒，先说出「分母是谁」</div>
+
+<div class="two-col">
+  <div class="q-block">
+    <div class="q">01　基础　部分 360，整体 1250，比重为？</div>
+    <ClickReveal answer="360 ÷ 1250 = 28.8%" />
+  </div>
+  <div class="q-block">
+    <div class="q">02　进阶　总量 5280 亿元，人数 16 万，平均每万人多少亿元？</div>
+    <ClickReveal answer="5280 ÷ 16 = 330 亿元 / 万人" />
+  </div>
+</div>
+
+<div class="footnote">第 2 题分母是「万人」，答案单位要写成「亿元 / 万人」，别只写 330。</div>
+
+<!--
+只问「分母是谁」，答对再算；比重题答「整体」、平均数题答「个数」才算过。
 -->
 
 ---

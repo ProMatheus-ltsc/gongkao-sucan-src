@@ -21,7 +21,7 @@ drawings:
 ## 从「一项一项加」到「先凑整、再求和」
 
 <div class="cover-meta">
-资料分析速算课 ｜ 19 页 ｜ 含课堂互动
+资料分析速算课 ｜ 24 页 ｜ 每讲一法，立刻练两题
 </div>
 
 <div class="cover-foot">面向大学生 / 上班族备考者　·　主讲：____________</div>
@@ -168,6 +168,32 @@ layout: default
 class: paper
 ---
 
+# 即学即练：凑整分组
+
+<div class="kicker">限时 40 秒，先找「尾数互补」的两对</div>
+
+<div class="two-col">
+  <div class="q-block">
+    <div class="q">01　基础　478 + 522 + 1365 + 1635</div>
+    <ClickReveal answer="(478 + 522) + (1365 + 1635) = 1000 + 3000 = 4000" />
+  </div>
+  <div class="q-block">
+    <div class="q">02　进阶　1.28 + 0.72 + 2.46 + 1.54（万亿）</div>
+    <ClickReveal answer="2.00 + 4.00 = 6.00 万亿" />
+  </div>
+</div>
+
+<div class="footnote">配对看末位：8+2、6+4 先凑整，不要按原顺序硬加。</div>
+
+<!--
+先让学员说出「哪两个先加」，再说答案；说不出配对的回上一页。
+-->
+
+---
+layout: default
+class: paper
+---
+
 # 动作二：基准数法
 
 <div class="kicker">四个数都接近 1000，就别硬加</div>
@@ -198,6 +224,32 @@ class: paper
 click 1：先问「硬加要几步」，再给基准 1000。
 click 2：写出四个偏移，基准和 4000。
 click 3：偏移和 9，总和 4009；对比硬加三次进位。
+-->
+
+---
+layout: default
+class: paper
+---
+
+# 即学即练：基准数法
+
+<div class="kicker">限时 50 秒，先写「基准 × 项数」，再写偏移</div>
+
+<div class="two-col">
+  <div class="q-block">
+    <div class="q">01　基础　1210 + 980 + 1045 + 965</div>
+    <ClickReveal answer="1000 × 4 = 4000 ｜ 偏移 +210 −20 +45 −35 = +200 → 4200" />
+  </div>
+  <div class="q-block">
+    <div class="q">02　进阶　970 + 1035 + 990 + 1008 + 997</div>
+    <ClickReveal answer="1000 × 5 = 5000 ｜ 偏移 −30 +35 −10 +8 −3 = 0 → 5000" />
+  </div>
+</div>
+
+<div class="footnote">第 2 题偏移正好抵消，答案是整数 5000；不要因为「太整」而怀疑自己。</div>
+
+<!--
+先问「基准取多少、几项」；偏移正负写混的，回上一页重看两列法。
 -->
 
 ---
@@ -240,6 +292,32 @@ layout: default
 class: paper
 ---
 
+# 即学即练：进位与尾数
+
+<div class="kicker">限时 40 秒，先算末两位的和，再报进位</div>
+
+<div class="two-col">
+  <div class="q-block">
+    <div class="q">01　基础　1364 + 2489 + 1756</div>
+    <ClickReveal answer="64 + 89 + 56 = 209 → 尾数 09，进 2 → 5609" />
+  </div>
+  <div class="q-block">
+    <div class="q">02　进阶　2038 + 1467 + 2954</div>
+    <ClickReveal answer="38 + 67 + 54 = 159 → 尾数 59，进 1 → 6459" />
+  </div>
+</div>
+
+<div class="footnote">只报「尾数 + 进位」就能判选项；进位漏掉的，回上一页看 201 的处理。</div>
+
+<!--
+先只让报尾数和进位，不报总和；这一步稳了再求和。
+-->
+
+---
+layout: default
+class: paper
+---
+
 # 例题一：三项连加
 
 <div class="hook">「合计」两个字，提示你要加几个数？</div>
@@ -275,6 +353,32 @@ layout: default
 class: paper
 ---
 
+# 即学即练：三项连加
+
+<div class="kicker">限时 50 秒，三步都写：量级 → 求和 → 校验</div>
+
+<div class="two-col">
+  <div class="q-block">
+    <div class="q">01　基础　2470 + 1856 + 3980</div>
+    <ClickReveal answer="粗估 2500 + 1900 + 4000 = 8400 → 精算 8306，量级一致" />
+  </div>
+  <div class="q-block">
+    <div class="q">02　进阶　2.47 + 1.856 + 3.98（万亿）</div>
+    <ClickReveal answer="= 8.306 万亿（与整数版同一组数）" />
+  </div>
+</div>
+
+<div class="footnote">先粗估再精算；只写结果没写量级的，按未完成处理。</div>
+
+<!--
+点开前先问「总和在 8000 还是 80000」，让量级先落地。
+-->
+
+---
+layout: default
+class: paper
+---
+
 # 例题二：混合加减
 
 <div class="hook">加项和减项，要放在一起算吗？</div>
@@ -302,6 +406,32 @@ class: paper
 click 1：先问「加项减项要一起算吗」，列出原式。
 click 2：加项先合群 6382 + 1247。
 click 3：7629 − 2358 = 5271，并提醒别把加项减项混组。
+-->
+
+---
+layout: default
+class: paper
+---
+
+# 即学即练：混合加减
+
+<div class="kicker">限时 50 秒，正项、负项各分一组</div>
+
+<div class="two-col">
+  <div class="q-block">
+    <div class="q">01　基础　8240 − 1375 + 2168 − 943</div>
+    <ClickReveal answer="正项和 10408，负项和 2318 → 8090" />
+  </div>
+  <div class="q-block">
+    <div class="q">02　进阶　8.24 − 1.375 + 2.168 − 0.943（亿）</div>
+    <ClickReveal answer="= 8.09 亿（与整数版同一组数）" />
+  </div>
+</div>
+
+<div class="footnote">第 2 题小数位不齐，先补零对齐再分组，别在心算里先四舍五入。</div>
+
+<!--
+先问「正项和、负项和各多少」，再点答案；混在一起算的，回上一页。
 -->
 
 ---

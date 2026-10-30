@@ -21,7 +21,7 @@ drawings:
 ## 从「一项一项减」到「先分组、再求差」
 
 <div class="cover-meta">
-资料分析速算课 ｜ 19 页 ｜ 含课堂互动
+资料分析速算课 ｜ 24 页 ｜ 每讲一法，立刻练两题
 </div>
 
 <div class="cover-foot">面向大学生 / 上班族备考者　·　主讲：____________</div>
@@ -168,6 +168,32 @@ layout: default
 class: paper
 ---
 
+# 即学即练：分组相减
+
+<div class="kicker">限时 40 秒，先写「减数和」，再写结果</div>
+
+<div class="two-col">
+  <div class="q-block">
+    <div class="q">01　基础　7452 − 1368 − 2194</div>
+    <ClickReveal answer="1368 + 2194 = 3562 → 7452 − 3562 = 3890" />
+  </div>
+  <div class="q-block">
+    <div class="q">02　进阶　1.28 − 0.47 − 0.36（万亿）</div>
+    <ClickReveal answer="0.47 + 0.36 = 0.83 → 1.28 − 0.83 = 0.45 万亿" />
+  </div>
+</div>
+
+<div class="footnote">全是减号才能合并减数；出现加号时，加项、减项各自分组。</div>
+
+<!--
+只批「先加后减」这一步有没有写；直接逐项减的，回上一页。
+-->
+
+---
+layout: default
+class: paper
+---
+
 # 动作二：基准数法
 
 <div class="kicker">四个数都接近 1000，就别硬算</div>
@@ -198,6 +224,32 @@ class: paper
 click 1：先问「硬加要几步」，再给基准 1000 和偏移思路。
 click 2：写出四个偏移，说明 1000 两两抵消。
 click 3：只算偏移和，得 13；对比硬算 2011−1998，快在多步心算。
+-->
+
+---
+layout: default
+class: paper
+---
+
+# 即学即练：基准数法
+
+<div class="kicker">限时 50 秒，先写偏移，再写结果</div>
+
+<div class="two-col">
+  <div class="q-block">
+    <div class="q">01　基础　1315 + 968 − 1240 − 1027</div>
+    <ClickReveal answer="偏移 +315 − 32 − 240 − 27 = +16 → 16" />
+  </div>
+  <div class="q-block">
+    <div class="q">02　进阶　1.315 + 0.968 − 1.240 − 1.027（万亿）</div>
+    <ClickReveal answer="偏移同上，结果 0.016 万亿（= 160 亿元）" />
+  </div>
+</div>
+
+<div class="footnote">第 2 题小数位不同，先统一成三位小数再取偏移，别删零。</div>
+
+<!--
+先问「基准取多少」；取 1000 后，正负偏移要分两列写。
 -->
 
 ---
@@ -240,6 +292,32 @@ layout: default
 class: paper
 ---
 
+# 即学即练：尾数校验
+
+<div class="kicker">限时 30 秒，只算末两位，判断选项</div>
+
+<div class="two-col">
+  <div class="q-block">
+    <div class="q">01　基础　9036 − 4187，尾数是多少？</div>
+    <ClickReveal answer="36 − 87 = −51 → 尾数 49，结果 4849" />
+  </div>
+  <div class="q-block">
+    <div class="q">02　进阶　5621 − 2847 − 1936，尾数是多少？</div>
+    <ClickReveal answer="21 − 47 − 36 = −62 → 尾数 38，结果 838" />
+  </div>
+</div>
+
+<div class="footnote">尾数只抓借位，抓不到量级；算出 838 后仍要回看千位是否合理。</div>
+
+<!--
+先盖住答案，只让报尾数；尾数对但量级错的，单独点出来。
+-->
+
+---
+layout: default
+class: paper
+---
+
 # 例题一：三项连减
 
 <div class="hook">「其余」两个字，提示你要连减几个数？</div>
@@ -275,6 +353,32 @@ layout: default
 class: paper
 ---
 
+# 即学即练：三项连减
+
+<div class="kicker">限时 50 秒，三步都写：合群 → 减 → 校验</div>
+
+<div class="two-col">
+  <div class="q-block">
+    <div class="q">01　基础　12580 − 3467 − 2895 − 1826</div>
+    <ClickReveal answer="减数和 8188 → 12580 − 8188 = 4392（尾数 92）" />
+  </div>
+  <div class="q-block">
+    <div class="q">02　进阶　1.258 − 0.347 − 0.290 − 0.183（万亿）</div>
+    <ClickReveal answer="减数和 0.820 → 1.258 − 0.820 = 0.438 万亿" />
+  </div>
+</div>
+
+<div class="footnote">两题是同一组数的整数版与小数版；小数版只挪小数点，方法不变。</div>
+
+<!--
+让学员先报「减数和」，超过 10 秒的，说明还在逐项减。
+-->
+
+---
+layout: default
+class: paper
+---
+
 # 例题二：混合加减
 
 <div class="hook">四个季度，先加哪两个？</div>
@@ -303,6 +407,32 @@ class: paper
 click 1：先问「先加哪两个」，列出两组。
 click 2：两组和 2011、1998。
 click 3：差 13；再用 pill 提醒基准法容易漏掉整组取反。
+-->
+
+---
+layout: default
+class: paper
+---
+
+# 即学即练：混合加减
+
+<div class="kicker">限时 50 秒，加项、减项各分一组</div>
+
+<div class="two-col">
+  <div class="q-block">
+    <div class="q">01　基础　6382 − 1247 + 2358 − 1896</div>
+    <ClickReveal answer="减项和 3143，加项和 2358 → 6382 + 2358 − 3143 = 5597" />
+  </div>
+  <div class="q-block">
+    <div class="q">02　进阶　6.382 − 1.247 + 2.358 − 1.896（亿）</div>
+    <ClickReveal answer="同结构，结果 5.597 亿（= 5597 万）" />
+  </div>
+</div>
+
+<div class="footnote">第 2 题注意单位：5.597 亿等于 5597 万，选项常在这两个量级之间设陷阱。</div>
+
+<!--
+先问「先加哪两个」，再点答案；把加项减项混在一列的，停下来重分。
 -->
 
 ---

@@ -21,7 +21,7 @@ drawings:
 ## 从「会算」到「算得够快」
 
 <div class="cover-meta">
-资料分析速算课 ｜ 19 页 ｜ 含课堂互动
+资料分析速算课 ｜ 26 页 ｜ 每讲一法，立刻练两题
 </div>
 
 <div class="cover-foot">面向大学生 / 上班族备考者　·　主讲：____________</div>
@@ -146,6 +146,32 @@ layout: default
 class: paper
 ---
 
+# 即学即练：拆分法
+
+<div class="kicker">限时 40 秒，先报答案，再点开对照</div>
+
+<div class="two-col">
+  <div class="q-block">
+    <div class="q">01　基础　138 × 49</div>
+    <ClickReveal answer="138 × 50 − 138 = 6762" />
+  </div>
+  <div class="q-block">
+    <div class="q">02　进阶　1.37 × 2.8</div>
+    <ClickReveal answer="1.37 × 28 ÷ 10 = 38.36 ÷ 10 = 3.836" />
+  </div>
+</div>
+
+<div class="footnote">两题都必须拆成整十；列竖式算对也不算达标。</div>
+
+<!--
+先让学员独立报答案，再逐题点开；错一题就回上一页重看拆法。
+-->
+
+---
+layout: default
+class: paper
+---
+
 # 乘法二：凑整补偿
 
 <div class="kicker">多算的要减掉</div>
@@ -178,6 +204,32 @@ click 1：只给公式，先问「498 离 500 差多少」。
 click 2：两列同时变形，让学员看到「都只差一点点」。
 click 3：分别算出 18500−74 和 44.5+1.07，停一下让他们心算。
 click 4：两个结果一起揭晓；立刻强调补偿项符号。
+-->
+
+---
+layout: default
+class: paper
+---
+
+# 即学即练：凑整补偿
+
+<div class="kicker">限时 40 秒，两题都不许列竖式</div>
+
+<div class="two-col">
+  <div class="q-block">
+    <div class="q">01　基础　203 × 47</div>
+    <ClickReveal answer="200 × 47 + 3 × 47 = 9400 + 141 = 9541" />
+  </div>
+  <div class="q-block">
+    <div class="q">02　进阶　0.98 × 456</div>
+    <ClickReveal answer="456 − 456 × 0.02 = 456 − 9.12 = 446.88" />
+  </div>
+</div>
+
+<div class="footnote">第 2 题是「少算的要补回来」的反向用法：减去的 2% 等于 9.12。</div>
+
+<!--
+点开答案后追问：第二个数为什么是减不是加？让学员说出「0.98 比 1 少」。
 -->
 
 ---
@@ -220,6 +272,32 @@ layout: default
 class: paper
 ---
 
+# 即学即练：两位数相乘
+
+<div class="kicker">限时 50 秒，写出「头 / 交叉 / 尾」三块</div>
+
+<div class="two-col">
+  <div class="q-block">
+    <div class="q">01　基础　47 × 63</div>
+    <ClickReveal answer="40×60=2400 ｜ 40×3+7×60=540 ｜ 7×3=21 → 2961" />
+  </div>
+  <div class="q-block">
+    <div class="q">02　进阶　86 × 94</div>
+    <ClickReveal answer="80×90=7200 ｜ 80×4+6×90=860 ｜ 6×4=24 → 8084" />
+  </div>
+</div>
+
+<div class="footnote">进阶题两个数都接近 100，也可以先用「(100−14)(100−6)」验证答案一致。</div>
+
+<!--
+只批「三块是否齐全」，不批速度；三块没写全的，回上一页重看数字网格。
+-->
+
+---
+layout: default
+class: paper
+---
+
 # 乘法四：百分数换分数
 
 <div class="hook">356 × 12.5%，一定要乘吗？能不能直接除？</div>
@@ -249,6 +327,32 @@ layout: default
 class: paper
 ---
 
+# 即学即练：百化分
+
+<div class="kicker">限时 40 秒，先想「除以几」再动笔</div>
+
+<div class="two-col">
+  <div class="q-block">
+    <div class="q">01　基础　428 × 14.3%</div>
+    <ClickReveal answer="14.3% ≈ 1/7 → 428 ÷ 7 ≈ 61.1" />
+  </div>
+  <div class="q-block">
+    <div class="q">02　进阶　396 × 8.3%</div>
+    <ClickReveal answer="8.3% ≈ 1/12 → 396 ÷ 12 = 33" />
+  </div>
+</div>
+
+<div class="footnote">8.3% 不是 1/8（12.5%），也不是 1/10；先翻百化分表，再动笔。</div>
+
+<!--
+点开前先问「除几」；答 1/8 的，说明只背了常用几个，回上一页补表。
+-->
+
+---
+layout: default
+class: paper
+---
+
 # 乘方一：平方表 11–30
 
 <div class="hook">27² 忘了，能用 25² 推出来吗？</div>
@@ -270,6 +374,32 @@ class: paper
 <!--
 click 1：先问「忘了能不能推」，再给三个锚点 400 / 625 / 900。
 click 2：用 27² 演示「锚点 + 差平方」，让学生不再死背全表。
+-->
+
+---
+layout: default
+class: paper
+---
+
+# 即学即练：平方表
+
+<div class="kicker">限时 30 秒，不许翻表，忘了就用锚点推</div>
+
+<div class="two-col">
+  <div class="q-block">
+    <div class="q">01　基础　23²</div>
+    <ClickReveal answer="529（20² 400 + 20×3×2 + 9）" />
+  </div>
+  <div class="q-block">
+    <div class="q">02　进阶　27²</div>
+    <ClickReveal answer="25² 625 + 2×(25+27) = 729" />
+  </div>
+</div>
+
+<div class="footnote">第 2 题考的是「用锚点推」，不是背；推不出来说明锚点没记牢。</div>
+
+<!--
+先 30 秒默写 11–20 的平方，再点开这两题；错题记进卡片。
 -->
 
 ---
@@ -319,6 +449,36 @@ layout: default
 class: paper
 ---
 
+# 即学即练：平方速算
+
+<div class="kicker">限时 40 秒，每题先说出「用哪一式」</div>
+
+<div class="two-col">
+  <div class="q-block">
+    <div class="q">01　基础　35²</div>
+    <ClickReveal answer="尾数 5：3×4=12 接 25 → 1225" />
+  </div>
+  <div class="q-block">
+    <div class="q">02　进阶　97²</div>
+    <ClickReveal answer="(100−3)² = 10000 − 600 + 9 = 9409" />
+  </div>
+  <div class="q-block">
+    <div class="q">03　进阶　48²</div>
+    <ClickReveal answer="(50−2)² = 2500 − 200 + 4 = 2304" />
+  </div>
+</div>
+
+<div class="footnote">三题分别对应「尾数 5 / 接近 100 / 接近整十」，先判型再算。</div>
+
+<!--
+只问「用哪一式」，再点答案；判型错了，方法对了也慢。
+-->
+
+---
+layout: default
+class: paper
+---
+
 # 乘方三：连乘近似
 
 <div class="kicker">多次增长，一次算完</div>
@@ -340,6 +500,32 @@ class: paper
 click 1：先问「真的要算到底吗」，再给近似式。
 click 2：带学员填表：一阶 1.24，二阶 1.2592，真值 1.2597。
 click 3：点误差 0.04%，给使用边界；强调「够选对选项」。
+-->
+
+---
+layout: default
+class: paper
+---
+
+# 即学即练：连乘近似
+
+<div class="kicker">限时 60 秒，写出一阶与二阶，再对照真值</div>
+
+<div class="two-col">
+  <div class="q-block">
+    <div class="q">01　基础　1.12³ ≈ ?</div>
+    <ClickReveal answer="一阶 1.36 ｜ 二阶 1.4032 ｜ 真值 1.4049" />
+  </div>
+  <div class="q-block">
+    <div class="q">02　进阶　2.4 × 1.1 × 1.12</div>
+    <ClickReveal answer="2.4 × 1.232 = 2.9568" />
+  </div>
+</div>
+
+<div class="footnote">第 1 题只有 n = 3，二阶已够；第 2 题是真题里的「连续两年增长」形态。</div>
+
+<!--
+让学员先写一阶再写二阶；跳过二阶直接报真值的，说明在硬算。
 -->
 
 ---
