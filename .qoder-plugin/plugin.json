@@ -1,0 +1,17 @@
+{
+  "name": "gongkao-sucan-src",
+  "displayName": "速算课件制作",
+  "version": "0.1.0",
+  "description": "Slidev 课件源码编写；PPT 课件制作",
+  "skills": [
+    ".trae/skills/ppt-courseware"
+  ],
+  "agents": [],
+  "models": {
+    "default": "deepseek-v4.1-flash"
+  },
+  "workbuddy": {
+    "entrySkill": "ppt-courseware",
+    "newSessionPerCall": true
+  }
+}
